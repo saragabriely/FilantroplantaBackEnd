@@ -1,0 +1,11 @@
+
+* URL: 
+    . Teste local: http://localhost:7071/api/AzFunc_CadastroUser
+    . Teste function publicada: https://azfunc-backend.azurewebsites.net/api/AzFunc_CadastroUser?code=jOTlX8Q966hHKSvp6Hjirg8m76P8e0mPDAa_Qo9GWPiUAzFuOzDvvQ==
+
+* Método: 
+    . POST
+        .. Cadastro novo - enviar o conteúdo do JsonPessoa.json, o campo PessoaID deve ser 0;
+    . PUT
+        ..  Atualização de cadastro - enviar o conteúdo do JsonPessoa.json, o campo PessoaID deve ser diferente de 0; 
+

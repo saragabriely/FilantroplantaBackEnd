@@ -1,0 +1,16 @@
+{
+	"PessoaID": 0,
+	"Nome": "João Lima Teste",
+	"TipoPessoaID": 1,
+	"Documento": "12345678922",
+	"CEP": "04100003",
+	"Endereco": "Avenida do Cursino",
+	"Numero": 12,
+	"Complemento": "",
+	"Bairro": "Jardim Vergueiro",
+	"Cidade": "Sao Paulo",
+	"Estado": "SP",
+	"Telefone": "912345678",
+	"Email": "r@gmail.com",
+	"Senha": "1234"
+}

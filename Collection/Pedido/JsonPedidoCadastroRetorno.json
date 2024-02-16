@@ -1,0 +1,26 @@
+{
+    "statusRetorno": 200,
+    "erro": "",
+    "id": 1,
+    "estoque": null,
+    "estoques": null,
+    "pedidos": null,
+    "pedidoProdutos": [
+        {
+            "pedidoProdutoID": 1,
+            "pedidoID": 1,
+            "produtoID": 1,
+            "quantidade": 100,
+            "valorPorKg": 10.0,
+            "valorTotalProduto": 1000.0
+        },
+        {
+            "pedidoProdutoID": 2,
+            "pedidoID": 1,
+            "produtoID": 2,
+            "quantidade": 200,
+            "valorPorKg": 10.0,
+            "valorTotalProduto": 2000.0
+        }
+    ]
+}

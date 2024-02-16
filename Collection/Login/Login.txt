@@ -1,0 +1,14 @@
+
+* URL: 
+    . Teste local: http://localhost:7071/api/AzFunc_Logon
+    . Teste function publicada: https://azfunc-backend.azurewebsites.net/api/AzFunc_Logon?code=F-aJPrEKkwKPvIuXmYSEbiYAAx3Ny4MuZAos2uuqZ4J6AzFu052jmA==
+
+* Método: GET
+
+* Headers: 
+    . Email
+    . Senha
+
+    . Exemplo de headers:
+        . Email: p@gmail.com
+        . Senha: 1234

@@ -1,0 +1,406 @@
+{
+	"info": {
+		"_postman_id": "1930511b-5961-419b-9c1c-5f3ae640a9b5",
+		"name": "Filantroplanta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28076072"
+	},
+	"item": [
+		{
+			"name": "Pessoa",
+			"item": [
+				{
+					"name": "Pessoa - POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"PessoaID\": 0,\r\n\t\"Nome\": \"João Lima Teste\",\r\n\t\"TipoPessoaID\": 1,\r\n\t\"Documento\": \"12345678922\",\r\n\t\"CEP\": \"04100003\",\r\n\t\"Endereco\": \"Avenida do Cursino\",\r\n\t\"Numero\": 12,\r\n\t\"Complemento\": \"\",\r\n\t\"Bairro\": \"Jardim Vergueiro\",\r\n\t\"Cidade\": \"Sao Paulo\",\r\n\t\"Estado\": \"SP\",\r\n\t\"Telefone\": \"912345678\",\r\n\t\"Email\": \"r@gmail.com\",\r\n\t\"Senha\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://azfunc-backend.azurewebsites.net/api/AzFunc_CadastroUser?code=jOTlX8Q966hHKSvp6Hjirg8m76P8e0mPDAa_Qo9GWPiUAzFuOzDvvQ==",
+							"protocol": "https",
+							"host": [
+								"azfunc-backend",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"AzFunc_CadastroUser"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "jOTlX8Q966hHKSvp6Hjirg8m76P8e0mPDAa_Qo9GWPiUAzFuOzDvvQ=="
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pessoa - Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"PessoaID\": 1,\r\n\t\"Nome\": \"João Lima Teste\",\r\n\t\"TipoPessoaID\": 1,\r\n\t\"Documento\": \"12345678922\",\r\n\t\"CEP\": \"04100003\",\r\n\t\"Endereco\": \"Avenida do Cursino\",\r\n\t\"Numero\": 12,\r\n\t\"Complemento\": \"\",\r\n\t\"Bairro\": \"Jardim Vergueiro\",\r\n\t\"Cidade\": \"Sao Paulo\",\r\n\t\"Estado\": \"SP\",\r\n\t\"Telefone\": \"912345678\",\r\n\t\"Email\": \"r@gmail.com\",\r\n\t\"Senha\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://azfunc-backend.azurewebsites.net/api/AzFunc_CadastroUser?code=F-aJPrEKkwKPvIuXmYSEbiYAAx3Ny4MuZAos2uuqZ4J6AzFu052jmA==",
+							"protocol": "https",
+							"host": [
+								"azfunc-backend",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"AzFunc_CadastroUser"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "F-aJPrEKkwKPvIuXmYSEbiYAAx3Ny4MuZAos2uuqZ4J6AzFu052jmA=="
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Email",
+								"value": "p@gmail.com",
+								"type": "text",
+								"equals": true
+							},
+							{
+								"key": "Senha",
+								"value": "1234",
+								"type": "text",
+								"equals": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://azfunc-backend.azurewebsites.net/api/AzFunc_Logon?code=F-aJPrEKkwKPvIuXmYSEbiYAAx3Ny4MuZAos2uuqZ4J6AzFu052jmA==",
+							"protocol": "https",
+							"host": [
+								"azfunc-backend",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"AzFunc_Logon"
+							],
+							"query": [
+								{
+									"key": "Email",
+									"value": "user1",
+									"disabled": true
+								},
+								{
+									"key": "Senha",
+									"value": "pass123",
+									"disabled": true
+								},
+								{
+									"key": "code",
+									"value": "F-aJPrEKkwKPvIuXmYSEbiYAAx3Ny4MuZAos2uuqZ4J6AzFu052jmA=="
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Produto",
+			"item": [
+				{
+					"name": "Produto - Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "produtoID",
+								"value": "4",
+								"equals": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:7071/api/AzFunc_Produtos?code=O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg==",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7071",
+							"path": [
+								"api",
+								"AzFunc_Produtos"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg=="
+								},
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produto - Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://azfunc-backend.azurewebsites.net/api/AzFunc_Produtos?code=O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg==",
+							"protocol": "https",
+							"host": [
+								"azfunc-backend",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"AzFunc_Produtos"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg=="
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produto - POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"produto\":{\r\n        \"produtoid\": 0,\r\n        \"descricao\": \"Uva LEO\",\r\n        \"valorporkg\": 10.50,\r\n        \"produtorid\": 1,\r\n        \"datacadastro\": \"2023-12-09 19:58:00.000\",\r\n        \"dataultimaatualizacao\": \"2023-12-09 19:58:00.000\"\r\n    },\r\n    \"quantidade\": 1000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://azfunc-backend.azurewebsites.net/api/AzFunc_Produtos?code=O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg==",
+							"protocol": "https",
+							"host": [
+								"azfunc-backend",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"AzFunc_Produtos"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg=="
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produto - PUT",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"produtoid\": 6,\r\n    \"descricao\": \"Uva LEO\",\r\n    \"valorporkg\": 11.50,\r\n    \"produtorid\": 1,\r\n    \"datacadastro\": \"2023-12-09 19:58:00.000\",\r\n    \"dataultimaatualizacao\": \"2023-12-09 19:58:00.000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://azfunc-backend.azurewebsites.net/api/AzFunc_Produtos?code=O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg==",
+							"protocol": "https",
+							"host": [
+								"azfunc-backend",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"AzFunc_Produtos"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg=="
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Estoque",
+			"item": [
+				{
+					"name": "Estoque - Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n    \"estoqueID\": 6,\r\n    \"produtoID\": 6,\r\n    \"produtorID\": 1,\r\n    \"quantidadeDisponivel\": 2000,\r\n    \"quantidadeVendida\": 0,\r\n    \"quantidadeReservada\": 0,\r\n    \"dataUltimaAtualizacao\": \"2023-12-09T22:59:05.0829415+00:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://azfunc-backend.azurewebsites.net/api/AzFunc_Estoque?code=QueLWUg3sQZNB9h8HoYn4G_kMkQzpDFLgnuKeAmMUN0-AzFuyo3N1g==",
+							"protocol": "https",
+							"host": [
+								"azfunc-backend",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"AzFunc_Estoque"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "QueLWUg3sQZNB9h8HoYn4G_kMkQzpDFLgnuKeAmMUN0-AzFuyo3N1g=="
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pedido",
+			"item": [
+				{
+					"name": "Pedido - POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pedido\":{\r\n        \"pedidoid\": 0,\r\n        \"statuspedidoid\": 1,\r\n        \"valortotalpedido\": 3000.0,\r\n        \"produtorid\": 1,\r\n        \"clienteid\": 2,\r\n        \"datacadastro\": \"2023-12-07 09:06:00.000\",\r\n        \"dataultimaatualizacao\": \"2023-12-07 09:06:00.000\"\r\n    },\r\n    \"produtos\":[\r\n        {\r\n            \"produtoID\":  1,\r\n            \"quantidade\": 100,\r\n            \"valorporkg\": 10.0,\r\n            \"valortotalproduto\": 1000.0\r\n        },\r\n        {\r\n            \"produtoID\":  2,\r\n            \"quantidade\": 200,\r\n            \"valorporkg\": 10.0,\r\n            \"valortotalproduto\": 2000.0\r\n        }\r\n    ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7071/api/AzFunc_Pedido",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7071",
+							"path": [
+								"api",
+								"AzFunc_Pedido"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pedido - GET",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "pedidoID",
+								"value": "1",
+								"type": "text",
+								"equals": true
+							},
+							{
+								"key": "produtorID",
+								"value": "1",
+								"type": "text",
+								"equals": true,
+								"disabled": true
+							},
+							{
+								"key": "clienteID",
+								"value": "2",
+								"type": "text",
+								"equals": true,
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:7071/api/AzFunc_Pedido",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7071",
+							"path": [
+								"api",
+								"AzFunc_Pedido"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

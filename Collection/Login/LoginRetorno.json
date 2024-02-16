@@ -1,0 +1,110 @@
+{
+    "statusRetorno": 200,
+    "erro": "",
+    "pessoa": {
+        "pessoaID": 1,
+        "nome": "José Lima",
+        "tipoPessoaID": 2,
+        "documento": "1234567890",
+        "cep": "01415003",
+        "endereco": "Rua Bela Cintra",
+        "numero": 162,
+        "complemento": "",
+        "bairro": "Consolação",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "telefone": "11954543030",
+        "email": "P@gmail.com",
+        "senha": "1234"
+    },
+    "produtos": [
+        {
+            "produtoID": 1,
+            "descricao": "Tomate Cereja",
+            "valorPorKg": 5.00,
+            "produtorID": 1,
+            "dataCadastro": "2023-12-06T17:27:37.93",
+            "dataUltimaAtualizacao": "2023-12-06T17:27:37.93"
+        },
+        {
+            "produtoID": 2,
+            "descricao": "Tomate Italiano",
+            "valorPorKg": 10.00,
+            "produtorID": 1,
+            "dataCadastro": "2023-12-07T09:01:20.367",
+            "dataUltimaAtualizacao": "2023-12-07T09:01:20.367"
+        },
+        {
+            "produtoID": 3,
+            "descricao": "Batata-Baroa ",
+            "valorPorKg": 2.00,
+            "produtorID": 1,
+            "dataCadastro": "2023-12-07T17:40:05.83",
+            "dataUltimaAtualizacao": "2023-12-07T17:40:05.83"
+        },
+        {
+            "produtoID": 4,
+            "descricao": "Couve-flor",
+            "valorPorKg": 3.00,
+            "produtorID": 1,
+            "dataCadastro": "2023-12-07T18:01:05.277",
+            "dataUltimaAtualizacao": "2023-12-07T18:01:05.277"
+        },
+        {
+            "produtoID": 5,
+            "descricao": "PRoduto Teste",
+            "valorPorKg": 3.00,
+            "produtorID": 1,
+            "dataCadastro": "2023-12-07T18:33:28.127",
+            "dataUltimaAtualizacao": "2023-12-07T18:33:28.127"
+        }
+    ],
+    "estoques": [
+        {
+            "estoqueID": 1,
+            "produtoID": 1,
+            "produtorID": 1,
+            "quantidadeDisponivel": 9900,
+            "quantidadeVendida": 0,
+            "quantidadeReservada": 0,
+            "dataUltimaAtualizacao": "2023-12-07T09:26:25.36"
+        },
+        {
+            "estoqueID": 2,
+            "produtoID": 2,
+            "produtorID": 1,
+            "quantidadeDisponivel": 29800,
+            "quantidadeVendida": 0,
+            "quantidadeReservada": 0,
+            "dataUltimaAtualizacao": "2023-12-07T09:26:38.363"
+        },
+        {
+            "estoqueID": 3,
+            "produtoID": 3,
+            "produtorID": 1,
+            "quantidadeDisponivel": 20000,
+            "quantidadeVendida": 0,
+            "quantidadeReservada": 0,
+            "dataUltimaAtualizacao": "2023-12-07T17:40:06.67"
+        },
+        {
+            "estoqueID": 4,
+            "produtoID": 4,
+            "produtorID": 1,
+            "quantidadeDisponivel": 10000,
+            "quantidadeVendida": 0,
+            "quantidadeReservada": 0,
+            "dataUltimaAtualizacao": "2023-12-07T18:01:05.67"
+        },
+        {
+            "estoqueID": 5,
+            "produtoID": 5,
+            "produtorID": 1,
+            "quantidadeDisponivel": 10000,
+            "quantidadeVendida": 0,
+            "quantidadeReservada": 0,
+            "dataUltimaAtualizacao": "2023-12-07T18:33:28.577"
+        }
+    ],
+    "pedidos": []
+}

@@ -1,0 +1,9 @@
+{
+    "statusRetorno": 200,
+    "erro": "",
+    "id": 0,
+    "estoque": null,
+    "estoques": null,
+    "pedidos": null,
+    "pedidoProdutos": null
+}

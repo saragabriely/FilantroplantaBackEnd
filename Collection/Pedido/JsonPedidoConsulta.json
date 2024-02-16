@@ -1,0 +1,19 @@
+{
+    "statusRetorno": 200,
+    "erro": "",
+    "id": 0,
+    "estoque": null,
+    "estoques": null,
+    "pedidos": [
+        {
+            "pedidoID": 1,
+            "statusPedidoID": 1,
+            "valorTotalPedido": 3000.00,
+            "produtorID": 1,
+            "clienteID": 2,
+            "dataCadastro": "2023-12-09T20:15:01.26",
+            "dataUltimaAtualizacao": "2023-12-09T20:15:01.26"
+        }
+    ],
+    "pedidoProdutos": null
+}

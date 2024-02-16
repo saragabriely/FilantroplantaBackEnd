@@ -1,0 +1,25 @@
+{
+    "pedido":{
+        "pedidoid": 0,
+        "statuspedidoid": 1,
+        "valortotalpedido": 3000.0,
+        "produtorid": 1,
+        "clienteid": 2,
+        "datacadastro": "2023-12-07 09:06:00.000",
+        "dataultimaatualizacao": "2023-12-07 09:06:00.000"
+    },
+    "produtos":[
+        {
+            "produtoID":  1,
+            "quantidade": 100,
+            "valorporkg": 10.0,
+            "valortotalproduto": 1000.0
+        },
+        {
+            "produtoID":  2,
+            "quantidade": 200,
+            "valorporkg": 10.0,
+            "valortotalproduto": 2000.0
+        }
+    ]
+}

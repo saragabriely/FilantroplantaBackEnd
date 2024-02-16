@@ -1,0 +1,13 @@
+* URL: 
+    . Teste local: http://localhost:7071/api/AzFunc_Produtos
+    . Teste function publicada: https://azfunc-backend.azurewebsites.net/api/AzFunc_Produtos?code=O-AJorhlnOXCA08DeGWmtdc2CRRgwqmbc34odkugLGrWAzFus38Qyg==
+
+* Método: 
+    . POST
+        .. Cadastro novo - enviar o conteúdo do JsonProdutoCadastro.json.json, o campo ProdutoID deve ser 0;
+    . PUT
+        ..  Atualização de cadastro - enviar o conteúdo do JsonProdutoAtualizacao.json; 
+    . DELETE
+        .. Exclusão de cadastro - Enviar o ID do produto no header "produtoID";
+
+

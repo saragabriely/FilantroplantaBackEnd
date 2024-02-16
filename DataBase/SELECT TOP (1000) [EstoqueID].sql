@@ -1,0 +1,8 @@
+SELECT TOP (1000) [EstoqueID]
+      ,[ProdutoID]
+      ,[ProdutorID]
+      ,[QuantidadeDisponivel]
+      ,[QuantidadeVendida]
+      ,[QuantidadeReservada]
+      ,[DataUltimaAtualizacao]
+  FROM [dbo].[Estoque]

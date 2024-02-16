@@ -1,0 +1,17 @@
+
+* URL: 
+    . Teste local: http://localhost:7071/api/AzFunc_Pedido
+    . Teste function publicada: 
+
+* Método: 
+    . GET
+        .. Possíveis headers (OBS: os headers são usados separadamente, ou seja, somente um pode ser usado por vez):
+            * pedidoID
+            * produtorID
+            * clienteID
+        .. Exemplo de retorno: JsonPedidoConsulta.json
+    . POST
+        .. Cadastro novo - enviar o conteúdo do JsonPedidoCadastro.json, o campo "pedidodid" deve ser 0;
+    . PUT
+
+

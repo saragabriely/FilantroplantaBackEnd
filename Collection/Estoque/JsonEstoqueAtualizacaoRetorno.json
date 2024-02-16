@@ -1,0 +1,17 @@
+{
+    "statusRetorno": 200,
+    "erro": null,
+    "id": 0,
+    "estoque": {
+        "estoqueID": 6,
+        "produtoID": 6,
+        "produtorID": 1,
+        "quantidadeDisponivel": 2000,
+        "quantidadeVendida": 0,
+        "quantidadeReservada": 0,
+        "dataUltimaAtualizacao": "2023-12-09T23:19:41.4713339+00:00"
+    },
+    "estoques": null,
+    "pedidos": null,
+    "pedidoProdutos": null
+}

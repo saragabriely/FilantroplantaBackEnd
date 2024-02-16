@@ -1,0 +1,10 @@
+
+* URL: 
+    . Teste local: http://localhost:7071/api/AzFunc_Estoque
+    . Teste function publicada: https://azfunc-backend.azurewebsites.net/api/AzFunc_Estoque?code=QueLWUg3sQZNB9h8HoYn4G_kMkQzpDFLgnuKeAmMUN0-AzFuyo3N1g==
+
+* Método: 
+    . PUT 
+        .. Atualização - Exemplo: JsonEstoqueAtualizacao.json 
+
+
